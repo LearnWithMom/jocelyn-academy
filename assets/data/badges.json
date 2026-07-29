@@ -1,0 +1,116 @@
+[
+  {
+    "id": "first-step",
+    "icon": "\ud83d\udeaa",
+    "title": "First Step",
+    "description": "Opened Jocelyn Academy and began the journey."
+  },
+  {
+    "id": "owner-brain",
+    "icon": "\ud83e\udde0",
+    "title": "Owner Brain",
+    "description": "Connected products, customers, revenue, costs, and profit."
+  },
+  {
+    "id": "scenario-strategist",
+    "icon": "\ud83e\udded",
+    "title": "Scenario Strategist",
+    "description": "Traced how one event can affect businesses differently."
+  },
+  {
+    "id": "future-builder",
+    "icon": "\u23f3",
+    "title": "Long-Term Thinker",
+    "description": "Explored how time, consistency, and goal timing interact."
+  },
+  {
+    "id": "fund-detective",
+    "icon": "\ud83d\udd0e",
+    "title": "Fund Detective",
+    "description": "Compared holdings, jobs, overlap, and expense ratios."
+  },
+  {
+    "id": "steady-investor",
+    "icon": "\ud83c\udf0a",
+    "title": "Patient Investor",
+    "description": "Made a thoughtful choice during a simulated market drop."
+  },
+  {
+    "id": "great-teacher",
+    "icon": "\ud83c\udfa4",
+    "title": "Explained It Clearly",
+    "description": "Taught an investing idea back in your own words."
+  },
+  {
+    "id": "real-world-researcher",
+    "icon": "\ud83d\uddc2\ufe0f",
+    "title": "Curious Researcher",
+    "description": "Investigated an actual fund and recorded the evidence."
+  },
+  {
+    "id": "notebook-thinker",
+    "icon": "\ud83d\udcd3",
+    "title": "Notebook Thinker",
+    "description": "Saved a useful idea, question, or surprise in the Jocelyn Notebook."
+  },
+  {
+    "id": "module-complete",
+    "icon": "\ud83c\udfc6",
+    "title": "Ownership Thinker",
+    "description": "Completed World 1, Module 1 with mastery."
+  },
+  {
+    "id": "expectation-spotter",
+    "icon": "\ud83c\udfaf",
+    "title": "Expectation Spotter",
+    "description": "Recognized that market reactions depend on what investors expected."
+  },
+  {
+    "id": "evidence-first",
+    "icon": "\ud83e\uddfe",
+    "title": "Evidence First",
+    "description": "Inspected business evidence before reacting to a headline."
+  },
+  {
+    "id": "market-explainer",
+    "icon": "\ud83d\udcac",
+    "title": "Market Explainer",
+    "description": "Explained why stock prices and business results can move differently."
+  },
+  {
+    "id": "market-reporter",
+    "icon": "\ud83d\uddde\ufe0f",
+    "title": "Market Reporter",
+    "description": "Investigated a real company story and separated facts from interpretation."
+  },
+  {
+    "id": "market-detective",
+    "icon": "\ud83d\udd0e",
+    "title": "Market Detective",
+    "description": "Completed World 1, Module 2 and learned to look behind the price."
+  },
+  {
+    "id": "cycle-reader",
+    "icon": "\ud83d\udcc9",
+    "title": "Cycle Reader",
+    "description": "Recognized that rising and falling markets are normal parts of investing."
+  },
+  {
+    "id": "recovery-mathematician",
+    "icon": "\ud83e\uddee",
+    "title": "Recovery Mathematician",
+    "description": "Connected the size of a decline with the gain needed to recover."
+  },
+  {
+    "id": "horizon-judge",
+    "icon": "\ud83d\uddd3\ufe0f",
+    "title": "Horizon Judge",
+    "description": "Matched market risk to the date money is actually needed."
+  },
+  {
+    "id": "market-historian",
+    "icon": "\ud83d\udd70\ufe0f",
+    "title": "Market Historian",
+    "description": "Completed World 1, Module 3 using history without treating it as a promise."
+  }
+]

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111a42">
+<title>Learn With Mom · Jocelyn Academy</title>
+<link rel="stylesheet" href="assets/css/shared.css">
+<link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<nav class="site-nav">
+ <div class="wrap nav-inner">
+  <a class="brand" href="./"><span class="brand-mark">✦</span> Learn With Mom</a>
+  <button class="icon-btn mobile-menu-btn" data-mobile-menu aria-label="Open menu">☰</button>
+  <div class="nav-links">
+   <a class="nav-link active" href="./">Home</a>
+   <a class="nav-link" href="#journey">World Map</a>
+   <button class="nav-link" data-open-modal="progressModal">Progress</button>
+   <button class="nav-link" data-open-modal="notebookModal">Notebook</button>
+   <button class="nav-link" data-open-modal="glossaryModal">Glossary</button>
+   <button class="nav-link" data-open-modal="badgesModal">Achievements</button>
+  </div>
+  <div class="xp-chip"><span>XP</span><strong data-xp>0</strong></div>
+  <button class="icon-btn" data-sound aria-label="Toggle sound">🔇</button>
+ </div>
+ <div class="progress-strip"><i data-global-progress></i></div>
+</nav>
+
+<header class="hero">
+ <div class="wrap hero-grid">
+  <div class="hero-copy">
+   <div class="kicker" style="color:#d8ceff">Jocelyn Academy</div>
+   <h1>Learn how the real world works.</h1>
+   <p>Build money, business, and life judgment by making choices, testing ideas, and explaining what you think.</p>
+   <div class="hero-actions">
+    <a class="btn primary" href="worlds/world-1/module-3/" data-continue-link>Continue: Bull & Bear Markets →</a>
+    <a class="btn ghost" href="#journey">Explore your world map</a>
+   </div>
+   <div class="hero-proof">
+    <span>✓ Saves automatically</span><span>✓ Built for your pace</span><span>✓ Real-world practice</span>
+   </div>
+  </div>
+  <div class="portal" aria-label="Milo, Jocelyn Academy’s market guide">
+    <div class="orbit orbit-one"></div>
+    <div class="orbit orbit-two"></div>
+    <div class="orbit orbit-three"></div>
+
+    <div class="orbit-icon icon-chart" aria-hidden="true">📈</div>
+    <div class="orbit-icon icon-bank" aria-hidden="true">🏦</div>
+    <div class="orbit-icon icon-card" aria-hidden="true">💳</div>
+    <div class="orbit-icon icon-idea" aria-hidden="true">💡</div>
+
+    <div class="milo-stage">
+      <div class="milo-glow"></div>
+      <img class="hero-mascot" src="assets/images/milo-black-cat.png" alt="Milo, Jocelyn Academy’s black cat market guide">
+    </div>
+
+    <div class="milo-message">
+      <span class="milo-name">Milo</span>
+      <strong>Milo is on watch.</strong>
+      <p>History is evidence, not a crystal ball.</p>
+    </div>
+   </div>
+  </div>
+ </header>
+
+<main id="main">
+ <div class="wrap">
+  <section class="dashboard-row">
+   <article class="card welcome-card">
+    <div class="kicker">Today’s focus</div>
+    <h2 data-current-module-title>Bull & Bear Markets</h2>
+    <p>Continue exactly where you left off. Your next module turns market history into judgment you can use.</p>
+    <div class="micro-actions"><button class="text-button" data-open-modal="notebookModal">Open Jocelyn Notebook</button><span>•</span><button class="text-button" data-open-modal="badgesModal">View unlockables</button></div>
+   </article>
+   <article class="card continue-card">
+    <div class="kicker">World 1 · Current module</div>
+    <h3 data-current-module-title>Bull & Bear Markets</h3>
+    <div class="mini-progress"><i data-global-progress></i></div>
+    <div class="continue-metrics"><strong data-progress-text>0%</strong><span><b data-xp>0</b> XP</span></div>
+    <p>Your progress stays in this browser.</p>
+    <a class="btn primary" href="worlds/world-1/module-3/" data-continue-link>Continue →</a>
+   </article>
+  </section>
+
+  <section class="return-reasons">
+   <article class="return-card"><span>🧠</span><div><b>Think, don’t memorize</b><small>Every activity asks you to make sense of something.</small></div></article>
+   <article class="return-card"><span>📓</span><div><b>Build your own notebook</b><small>Save what you learned, questions, and surprises.</small></div></article>
+   <article class="return-card"><span>🏅</span><div><b>Earn meaningful badges</b><small>Achievements reward judgment and habits, not random clicks.</small></div></article>
+  </section>
+
+  <div class="path-head" id="journey">
+   <div><div class="kicker">Your learning universe</div><h2>A true world map</h2></div>
+   <p>Each destination lights up as you grow. World 1 is open now. The rest show where your knowledge is heading.</p>
+  </div>
+
+  <section class="world-map" id="worldMap" aria-label="Academy world map"></section>
+
+  <section class="card world-one-roadmap">
+   <div class="roadmap-head"><div><div class="kicker">World 1 roadmap</div><h2>Ownership & Investing</h2></div><span class="status-open">World open</span></div>
+   <div class="module-roadmap" id="moduleRoadmap"></div>
+  </section>
+
+  <section class="card academy-standard">
+   <div class="kicker">A familiar rhythm</div>
+   <h2>Every module feels familiar, but never repetitive.</h2>
+   <div class="rhythm">
+    <div><strong>1</strong title="Know what you're about to learn">Mission</div><div><strong>2</strong title="Understand the idea">Learn</div><div><strong>3</strong title="See it happen">Explore</div><div><strong>4</strong title="Try it yourself">Practice</div><div><strong>5</strong title="Teach it back">Explain</div><div><strong>6</strong>Real world</div><div><strong>7</strong title="Earn your progress">Complete</div>
+   </div>
+  </section>
+ </div>
+</main>
+
+<footer><div class="wrap footer-row"><span>Built with Mom · Learn With Mom · Jocelyn Academy</span><button class="text-button" data-open-modal="parentModal">Parent view</button></div></footer>
+
+<div class="modal-backdrop" id="progressModal"><section class="modal"><div class="modal-head"><h2>Your progress</h2><button data-close-modal="progressModal">×</button></div><div class="progress-summary"><div><span>Module progress</span><strong data-progress-text>0%</strong></div><div><span>Experience points</span><strong><span data-xp>0</span> XP</strong></div></div><div class="progress-strip modal-progress"><i data-global-progress></i></div><p>Complete learning stages, write notebook entries, and demonstrate judgment to earn XP and achievements.</p><p><button class="btn ghost small" data-reset>Reset progress on this browser</button></p></section></div>
+<div class="modal-backdrop" id="notebookModal"><section class="modal notebook-modal"><div class="modal-head"><h2>Jocelyn Notebook</h2><button data-close-modal="notebookModal">×</button></div><p>Keep your own record of ideas. These entries save in this browser.</p><div class="notebook-compose"><select data-notebook-type><option>What I learned</option><option>Question I still have</option><option>This surprised me</option><option>My real-world example</option></select><textarea data-notebook-text placeholder="Write one useful thought..."></textarea><button class="btn primary" data-notebook-save>Save entry</button></div><div class="notebook-tools"><div class="search-box"><input data-notebook-search placeholder="Search your notebook"></div><select data-notebook-filter><option value="">All entry types</option><option>What I learned</option><option>Question I still have</option><option>This surprised me</option><option>My real-world example</option></select><button class="btn ghost small" data-notebook-export>Export notebook</button></div><div class="notebook-prompts"><button data-notebook-starter="The most useful idea today was…">Most useful idea</button><button data-notebook-starter="I changed my mind about… because…">Changed my mind</button><button data-notebook-starter="I still wonder…">I still wonder</button></div><div class="notebook-list" data-notebook-list></div></section></div>
+<div class="modal-backdrop" id="glossaryModal"><section class="modal"><div class="modal-head"><h2>Glossary</h2><button data-close-modal="glossaryModal">×</button></div><div class="search-box"><input data-glossary-search placeholder="Search a word or idea"></div><div class="glossary-grid" data-glossary-list></div></section></div>
+<div class="modal-backdrop" id="badgesModal"><section class="modal"><div class="modal-head"><h2>Meaningful achievements</h2><button data-close-modal="badgesModal">×</button></div><p>These unlock when you demonstrate useful habits and understanding.</p><div class="badge-grid" data-badge-list></div></section></div>
+<div class="modal-backdrop" id="parentModal"><section class="modal"><div class="modal-head"><h2>Parent view</h2><button data-close-modal="parentModal">×</button></div><p>The coaching guide is built into Module 1. Open the module, scroll to Parent Coaching, and use the local code <strong>0222</strong>.</p><div class="callout gold"><strong>Note:</strong> This is a convenience gate, not true security. A public GitHub Pages site cannot contain genuinely private information.</div></section></div>
+<div class="toast"></div>
+<script src="assets/js/engine.js"></script>
+<script src="assets/js/home.js"></script>
+</body></html>

@@ -1,0 +1,97 @@
+[
+  {
+    "term": "Asset",
+    "definition": "Something you own that has value or may produce value over time.",
+    "example": "A share of an ETF is an asset."
+  },
+  {
+    "term": "Diversification",
+    "definition": "Spreading ownership across many investments instead of depending on only one.",
+    "example": "An ETF that owns hundreds of companies can be more diversified than one stock."
+  },
+  {
+    "term": "ETF",
+    "definition": "Exchange-Traded Fund: a pooled investment that owns a collection of assets and trades on an exchange.",
+    "example": "VTI is an ETF that owns a broad group of U.S. companies."
+  },
+  {
+    "term": "Expense ratio",
+    "definition": "The annual percentage a fund uses to cover its operating costs. It is reflected inside the fund's returns.",
+    "example": "A 0.03% expense ratio costs about $0.30 each year per $1,000 invested."
+  },
+  {
+    "term": "Long time horizon",
+    "definition": "Money is being invested for a goal many years away, so there is time to recover from normal market declines.",
+    "example": "Retirement money has a longer horizon than money needed for a laptop next year."
+  },
+  {
+    "term": "Mutual fund",
+    "definition": "A pooled investment generally bought or sold at a price calculated after the market closes.",
+    "example": "A mutual fund and an ETF may own similar investments but trade differently."
+  },
+  {
+    "term": "Share",
+    "definition": "One unit of ownership in a company or fund.",
+    "example": "Buying one share of a stock makes you one of its owners."
+  },
+  {
+    "term": "Stock",
+    "definition": "Ownership in a company, divided into shares.",
+    "example": "A stockholder participates in the company's risks and potential rewards."
+  },
+  {
+    "term": "Ticker symbol",
+    "definition": "A short code used to identify a publicly traded stock or fund.",
+    "example": "VTI is a ticker symbol, not the full name of the fund."
+  },
+  {
+    "term": "Volatility",
+    "definition": "How much and how quickly an investment's quoted price moves up and down.",
+    "example": "Money needed next month should not usually depend on a highly volatile investment."
+  },
+  {
+    "term": "Expectation",
+    "definition": "What investors believe may happen in the future. Prices can react to the difference between the result and the expectation.",
+    "example": "Profit rose, but the stock fell because investors expected even more."
+  },
+  {
+    "term": "Earnings",
+    "definition": "A company\u2019s profit, often discussed in quarterly reports.",
+    "example": "Investors compare actual earnings with earlier expectations."
+  },
+  {
+    "term": "Interest rate",
+    "definition": "The cost of borrowing money or the return paid for lending it. Rates can affect spending, business costs, and investment values.",
+    "example": "Higher rates can make a new business loan more expensive."
+  },
+  {
+    "term": "Market sentiment",
+    "definition": "The overall mood or attitude investors have toward a company, industry, or market.",
+    "example": "Fear can create selling pressure even before every fact is understood."
+  },
+  {
+    "term": "Valuation",
+    "definition": "A judgment about what an investment may be worth compared with its price and future possibilities.",
+    "example": "A wonderful company can still be expensive at a very high price."
+  },
+  {
+    "term": "Bull market",
+    "definition": "A period when a broad market rises substantially from a recent low and investor confidence generally improves.",
+    "example": "A bull market can last months or years, but it does not mean prices rise every day."
+  },
+  {
+    "term": "Bear market",
+    "definition": "A decline of about 20% or more in a broad market from a recent high.",
+    "example": "A bear market describes the size of a decline, not how long recovery will take."
+  },
+  {
+    "term": "Drawdown",
+    "definition": "The percentage decline from an investment's previous high point.",
+    "example": "A fall from $100 to $70 is a 30% drawdown."
+  },
+  {
+    "term": "Recovery",
+    "definition": "The gain needed for an investment to return from a decline to its earlier value.",
+    "example": "After a 50% decline, a 100% gain is needed to return to the starting value."
+  }
+]

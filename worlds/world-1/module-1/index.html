@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111a42">
+<title>How to Own Things · Jocelyn Academy</title>
+<link rel="stylesheet" href="../../../assets/css/shared.css">
+<link rel="stylesheet" href="../../../assets/css/module.css">
+</head>
+<body data-module="world-1-module-1">
+<a class="skip-link" href="#module">Skip to module</a>
+<nav class="site-nav">
+ <div class="wrap nav-inner">
+  <a class="brand" href="../../../"><span class="brand-mark">✦</span> Learn With Mom</a>
+  <button class="icon-btn mobile-menu-btn" data-mobile-menu aria-label="Open menu">☰</button>
+  <div class="nav-links">
+   <a class="nav-link" href="../../../">Home</a>
+   <a class="nav-link" href="../../../#journey">World Map</a>
+   <button class="nav-link" data-open-modal="progressModal">Progress</button>
+   <button class="nav-link" data-open-modal="notebookModal">Notebook</button>
+   <button class="nav-link" data-open-modal="glossaryModal">Glossary</button>
+   <button class="nav-link" data-open-modal="badgesModal">Achievements</button>
+  </div>
+  <div class="xp-chip"><span>XP</span><strong data-xp>0</strong></div>
+  <button class="icon-btn" data-sound aria-label="Toggle sound">🔇</button>
+ </div>
+ <div class="progress-strip"><i data-global-progress></i></div>
+</nav>
+
+<header class="module-hero">
+ <div class="wrap">
+  <div class="kicker" style="color:#d8ceff">World 1 · Module 1</div>
+  <h1>How to Own Things</h1>
+  <p>See what a stock or ETF actually represents, make choices during a market drop, and learn why goals matter more than headlines.</p>
+  <div class="mission-meta"><span class="pill">⏱ 45–60 minutes</span><span class="pill">🕹 Interactive labs</span><span class="pill">📓 Jocelyn Notebook</span></div>
+ </div>
+</header>
+
+<main class="wrap module-shell" id="module">
+ <aside class="card module-side">
+  <div class="side-title">Module path</div>
+  <a href="#brief" data-stage-link="brief" title="Know what you're about to learn">Mission</a><a href="#learn" data-stage-link="learn" title="Understand the idea">Learn</a><a href="#explore" data-stage-link="explore" title="See it happen">Explore</a><a href="#practice" data-stage-link="practice" title="Try it yourself">Practice</a><a href="#explain" data-stage-link="explain" title="Teach it back">Explain</a><a href="#realworld" data-stage-link="realworld">Real world</a><a href="#finish" data-stage-link="finish" title="Earn your progress">Complete</a>
+ </aside>
+
+ <section class="module-content">
+  <article class="card module-card" id="brief">
+   <div class="stage-head"><div class="stage-label"><div class="stage-number">1</div><div><div class="kicker">Mission brief</div><h2>Your owner challenge</h2></div></div><span class="pill stage-pill">Start here</span></div>
+   <p class="lede">By the end, you should be able to look past a ticker symbol and explain what you own, what it costs, what could affect it, and whether it fits the time available for your goal.</p>
+   <div class="objective-grid"><div class="objective"><b>See it</b><span>One stock versus a basket of companies</span></div><div class="objective"><b>Test it</b><span>Market choices with $100</span></div><div class="objective"><b>Judge it</b><span>Cost, overlap, risk, and time</span></div></div>
+   <div class="callout purple"><strong>Your big question:</strong> “What do I actually own, and why does it belong in my plan?”</div>
+   <div class="stage-complete"><button class="btn primary" data-complete-stage="brief">I understand the mission →</button></div>
+  </article>
+
+  <article class="card module-card" id="learn">
+   <div class="stage-head"><div class="stage-label"><div class="stage-number">2</div><div><div class="kicker">Learn by seeing</div><h2>One company or a basket?</h2></div></div></div>
+   <p class="lede">A stock is one ownership slice of one company. An ETF is a fund that can hold many investments inside one tradable container.</p>
+   <div class="ownership-visual">
+    <div class="single-owner"><span class="visual-label">One stock</span><div class="big-company">AAPL</div><strong>Apple</strong><small>Your result depends heavily on one company.</small></div>
+    <div class="visual-arrow">→</div>
+    <div class="etf-basket"><span class="visual-label">One ETF</span><div class="basket-shell"><div>Apple</div><div>Microsoft</div><div>Costco</div><div>Visa</div><div>Nvidia</div><div>Disney</div><div>+ many more</div></div><strong>A basket of ownership</strong><small>Different companies can contribute to the result.</small></div>
+   </div>
+   <h3>Build a five-company world</h3>
+   <p>Choose five businesses from different categories. You are not predicting winners. You are noticing that businesses earn money in different ways.</p>
+   <div class="company-grid" id="companyGrid"></div>
+   <div class="callout teal" id="companyFeedback">Choose five companies.</div>
+   <div class="quick-notebook"><div><b>Notebook moment</b><span>What is one difference you can now see between a stock and an ETF?</span></div><button class="btn ghost small" data-quick-note="What I learned">Save a thought</button></div>
+   <div class="stage-complete"><button class="btn primary" data-complete-stage="learn">I can explain ownership →</button></div>
+  </article>
+
+  <article class="card module-card" id="explore">
+   <div class="stage-head"><div class="stage-label"><div class="stage-number">3</div><div><div class="kicker" title="See it happen">Explore</div><h2>Follow the business chain</h2></div></div></div>
+   <p class="lede">News does not move every company the same way. Pick an event, predict first, then reveal the possible chain.</p>
+   <div class="scenario-lab">
+    <div class="scenario-controls" id="scenarioButtons"></div>
+    <div class="prediction-box">
+     <label>Before revealing the answer, choose your prediction.</label>
+     <div class="choice-row" id="predictionButtons"><button class="chip">Mostly helps</button><button class="chip">Mostly hurts</button><button class="chip">Depends</button></div>
+    </div>
+    <button class="btn secondary" id="revealScenario" disabled>Reveal the chain</button>
+    <div class="result-panel" id="scenarioResult">Choose an event and make a prediction.</div>
+   </div>
+   <div class="cause-chain"><span>Event</span><b>→</b><span>Customers</span><b>→</b><span>Sales</span><b>→</b><span>Costs</span><b>→</b><span>Profit</span></div>
+   <div class="stage-complete"><button class="btn primary" data-complete-stage="explore">I traced a business scenario →</button></div>
+  </article>
+
+  <article class="card module-card" id="practice">
+   <div class="stage-head"><div class="stage-label"><div class="stage-number">4</div><div><div class="kicker">Practice labs</div><h2>Make investor decisions</h2></div></div></div>
+
+   <section class="lab-block">
+    <div class="lab-title"><span>Lab A</span><h3>Your future time machine</h3></div>
+    <p>Move the controls. This is an illustration, not a promise. Notice what changes when money has more time.</p>
+    <div class="slider-grid"><div class="slider"><label>Starting age <span id="ageV">13</span></label><input id="age" type="range" min="10" max="35" value="13"></div><div class="slider"><label>Monthly contribution <span id="monthlyV">$50</span></label><input id="monthly" type="range" min="10" max="500" step="10" value="50"></div><div class="slider"><label>Ending age <span id="endV">65</span></label><input id="end" type="range" min="30" max="75" value="65"></div><div class="slider"><label>Illustrative annual return <span id="rateV">8.0%</span></label><input id="rate" type="range" min="2" max="12" step=".5" value="8"></div></div>
+    <div class="number-row"><div class="metric"><span>You contribute</span><strong id="contrib">$0</strong></div><div class="metric"><span>Illustrated growth</span><strong id="growth">$0</strong></div><div class="metric"><span>Illustrated total</span><strong id="future">$0</strong></div></div>
+    <div class="timeline-plain"><div class="timeline-now"><b>Money needed soon</b><span>Next year’s laptop, emergency money, near-term school costs</span></div><div class="timeline-line"></div><div class="timeline-later"><b>Money for many years later</b><span>Adulthood, a future home, or retirement</span></div></div>
+    <div class="callout green"><strong>A long time horizon means:</strong> You do not expect to need this money for many years. More time does not erase risk, but it gives normal market declines more time to recover. Money needed soon should not depend on the stock market being up on one exact date.</div>
+   </section>
+
+   <section class="lab-block">
+    <div class="lab-title"><span>Lab B</span><h3>ETF X-ray</h3></div>
+    <p>Inspect the job, holdings, and cost. A ticker is only a label.</p>
+    <div class="expense-visual"><div><b>0.03%</b><span>about $0.30 yearly per $1,000</span></div><div><b>0.25%</b><span>about $2.50 yearly per $1,000</span></div><p>An expense ratio is the fund’s approximate annual operating cost. It is not the fund’s return.</p></div>
+    <div class="fund-tabs" id="fundTabs"></div><div class="fund-panel" id="fundPanel"></div>
+    <h4>Overlap detective</h4>
+    <div class="decision-row"><select id="fundA"></select><select id="fundB"></select></div><div class="overlap-bar"><i id="overlapFill"></i></div><p id="overlapText"></p>
+   </section>
+
+   <section class="lab-block market-sim">
+    <div class="lab-title"><span>Lab C</span><h3>$100 market simulator</h3></div>
+    <p>You invested <strong>$100</strong> in a fund that owns hundreds or thousands of companies for a goal 20 years away. The market suddenly falls 20%. Your screen now shows <strong>$80</strong>. What do you do?</p>
+    <div class="market-screen"><span>Starting value</span><b>$100</b><div class="market-drop">↓ 20%</div><span>Current value</span><strong>$80</strong></div>
+    <div class="sim-choices" id="marketChoices"><button data-choice="sell">Panic sell</button><button data-choice="hold">Hold</button><button data-choice="buy">Buy $20 more</button></div>
+    <div class="result-panel" id="marketResult">Choose a response to experience the tradeoff.</div>
+    <button class="btn ghost small" id="runNextYear" disabled>See one possible next year →</button>
+    <div class="sim-future" id="simFuture"></div>
+   </section>
+
+   <section class="lab-block">
+    <div class="lab-title"><span>Lab D</span><h3>Judgment, not trivia</h3></div>
+    <p>A friend says, “The market fell 20%, so investing must be a bad idea.” Choose the strongest response.</p>
+    <div class="judgment-options" id="judgmentOptions">
+     <button data-correct="false">“Yes. Any drop means investing failed.”</button>
+     <button data-correct="true">“A drop matters, but the decision also depends on what you own, when you need the money, and whether the investment reason changed.”</button>
+     <button data-correct="false">“Ignore every drop because markets always go up immediately.”</button>
+    </div>
+    <div class="result-panel" id="judgmentResult">Choose the response with the best reasoning.</div>
+   </section>
+
+   <div class="stage-complete"><button class="btn primary" data-complete-stage="practice">I completed the decision labs →</button></div>
+  </article>
+
+  <article class="card module-card" id="explain">
+   <div class="stage-head"><div class="stage-label"><div class="stage-number">5</div><div><div class="kicker" title="Teach it back">Explain</div><h2>Teach it back</h2></div></div></div>
+   <p class="lede">A strong explanation shows that you can connect ideas without borrowing the lesson’s exact words.</p>
+   <div class="explain-grid">
+    <div class="prompt-card"><h3>Explain to Mom</h3><p>What is the difference between owning one stock and owning an ETF?</p><textarea id="teachBack" placeholder="I would explain it like this..."></textarea></div>
+    <div class="prompt-card"><h3>Correct the mistake</h3><p>A friend says, “An ETF with a 0.03% expense ratio earns 0.03%.” Correct the mistake and put the cost into dollars for $1,000 invested.</p><textarea id="mistakeAnswer" placeholder="The mistake is..."></textarea></div>
+    <div class="prompt-card full"><h3>Use judgment</h3><p>A friend wants to invest money needed for a school trip next year. Explain why the time horizon changes the decision.</p><textarea id="judgmentAnswer" placeholder="The time horizon matters because..."></textarea></div>
+   </div>
+   <button class="btn teal" id="saveExplain">Save my explanations</button>
+   <div class="stage-complete"><button class="btn primary" data-complete-stage="explain">My explanation is complete →</button></div>
+  </article>
+
+  <article class="card module-card" id="realworld">
+   <div class="stage-head"><div class="stage-label"><div class="stage-number">6</div><div><div class="kicker">Real-world challenge</div><h2>Investigate an actual ETF</h2></div></div></div>
+   <div class="real-world-list">
+    <label class="check-card"><input type="checkbox"><span><b>Open Fidelity with Mom.</b><br>Search one ETF by ticker.</span></label>
+    <label class="check-card"><input type="checkbox"><span><b>Find its job.</b><br>What part of the market is it designed to own?</span></label>
+    <label class="check-card"><input type="checkbox"><span><b>Inspect what is inside.</b><br>Look at holdings, number of companies, and geography.</span></label>
+    <label class="check-card"><input type="checkbox"><span><b>Translate the expense ratio.</b><br>Estimate the annual cost for $1,000 invested.</span></label>
+   </div>
+   <textarea id="fundResearch" placeholder="Ticker, fund job, what it owns, expense ratio, cost per $1,000, and whether you think it has a clear purpose..."></textarea>
+   <button class="btn teal" id="saveResearch">Save my research</button>
+   <div class="stage-complete"><button class="btn primary" data-complete-stage="realworld">My real-world challenge is complete →</button></div>
+  </article>
+
+  <article class="card module-card" id="finish">
+   <div class="stage-head"><div class="stage-label"><div class="stage-number">7</div><div><div class="kicker" title="Earn your progress">Complete</div><h2>Mastery check</h2></div></div></div>
+   <div id="quizHost"></div>
+   <button class="btn secondary" id="checkQuiz">Check my answers</button>
+   <p class="quiz-feedback" id="quizFeedback"></p>
+   <button class="btn primary" id="completeModule" disabled>Complete Module 1</button>
+   <div class="complete-banner" id="completeBanner">
+    <div class="completion-icon">🏆</div><div><h3>You can now explain ETFs better than many adults.</h3><p>You earned the <strong>Ownership Thinker</strong> badge and 100 completion XP. World 1, Module 2 is now your next destination.</p><div class="completion-actions"><button class="btn secondary" onclick="LWM.certificate({title:'Certificate of Ownership Thinking',description:'completed World 1, Module 1 and demonstrated understanding of ownership, diversified funds, fund costs, compounding, and thoughtful investor behavior.'})">Print certificate</button><button class="btn ghost" data-open-modal="notebookModal">Open your notebook</button></div></div>
+   </div>
+  </article>
+
+  <article class="card module-card parent-card">
+   <div class="kicker">Parent coaching</div><h2>Conversation guide</h2>
+   <div id="parentGate"><p>Enter the local parent code.</p><div class="decision-row"><input id="parentPin" type="password" inputmode="numeric" placeholder="Code"><button class="btn secondary" id="parentUnlock">Unlock</button></div></div>
+   <div id="parentContent" hidden>
+    <div class="parent-panel">
+     <details open><summary>Signs she understands</summary><p>She can distinguish ownership from a ticker, explain an ETF as a container, translate an expense ratio into dollars, and explain why a one-year goal and a 20-year goal should not use the same investment logic.</p></details>
+     <details><summary>Useful follow-up questions</summary><p>“What evidence would make you change your mind?” “What job does this fund perform?” “Is this a price change or a change in the business?”</p></details>
+     <details><summary>Common misconceptions</summary><p>A low expense ratio is not a return. Diversification does not mean no losses. A long time horizon does not guarantee profit. Buying more during a drop only makes sense when the goal, risk capacity, and investment reason still fit.</p></details>
+     <details><summary>Do not over-correct</summary><p>Let her reason aloud. Ask for the chain behind an answer instead of immediately giving the conclusion.</p></details>
+    </div>
+   </div>
+  </article>
+ </section>
+</main>
+
+<footer><div class="wrap footer-row"><span>World 1 · Ownership & Investing</span><a href="../../../">Back to academy</a></div></footer>
+
+<div class="modal-backdrop" id="progressModal"><section class="modal"><div class="modal-head"><h2>Your progress</h2><button data-close-modal="progressModal">×</button></div><div class="progress-summary"><div><span>Module progress</span><strong data-progress-text>0%</strong></div><div><span>Experience points</span><strong><span data-xp>0</span> XP</strong></div></div><div class="progress-strip modal-progress"><i data-global-progress></i></div><p><button class="btn ghost small" data-reset>Reset progress on this browser</button></p></section></div>
+<div class="modal-backdrop" id="notebookModal"><section class="modal notebook-modal"><div class="modal-head"><h2>Jocelyn Notebook</h2><button data-close-modal="notebookModal">×</button></div><p>Save what you learned, questions you still have, or something that surprised you.</p><div class="notebook-compose"><select data-notebook-type><option>What I learned</option><option>Question I still have</option><option>This surprised me</option><option>My real-world example</option></select><textarea data-notebook-text placeholder="Write one useful thought..."></textarea><button class="btn primary" data-notebook-save>Save entry</button></div><div class="search-box"><input data-notebook-search placeholder="Search your notebook"></div><div class="notebook-list" data-notebook-list></div></section></div>
+<div class="modal-backdrop" id="glossaryModal"><section class="modal"><div class="modal-head"><h2>Glossary</h2><button data-close-modal="glossaryModal">×</button></div><div class="search-box"><input data-glossary-search placeholder="Search a word or idea"></div><div class="glossary-grid" data-glossary-list></div></section></div>
+<div class="modal-backdrop" id="badgesModal"><section class="modal"><div class="modal-head"><h2>Achievements</h2><button data-close-modal="badgesModal">×</button></div><div class="badge-grid" data-badge-list></div></section></div>
+<div class="toast"></div>
+<script src="../../../assets/js/engine.js"></script>
+<script src="../../../assets/js/module-1.js"></script>
+</body></html>
